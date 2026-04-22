@@ -1,29 +1,57 @@
 # Inventory Management System
 
-A Python GUI based Inventory Management System using:
+A Python GUI based Inventory Management System developed for managing products, customers, and transactions efficiently.
 
+Technologies Used:
 - Python
-- Tkinter
-- MySQL
-- ReportLab (PDF invoice)
+- Tkinter (GUI)
+- MySQL Database
+- ReportLab (PDF Invoice Generation)
 
-## Features
-
-- Add / Update / Delete Products
+Features:
+- Add Products
+- Update Products
+- Delete Products
 - Customer Management
-- Transactions
-- Automatic Invoice PDF generation
+- Transaction Recording
+- Automatic Invoice PDF Generation
 
-## Installation
+Project Structure:
 
-1 Install dependencies
+stock-management-system
+|
+|-- secbp.py
+|-- mysqlconnector.py
+|-- requirements.txt
+|-- database.sql
+|-- README.md
+
+
+Installation:
+
+1. Install required libraries
 
 pip install -r requirements.txt
 
-2 Run the project
+
+2. Run the project
 
 python secbp.py
 
-## Database
 
-Create MySQL database and tables using database.sql
+Database Setup:
+
+1. Open MySQL
+2. Create database
+
+CREATE DATABASE stock_db;
+
+3. Import database file
+
+SOURCE database.sql;
+
+
+Author:
+Maloth Manjula
+
+B.Tech Software Engineering Project
