@@ -1,0 +1,29 @@
+# Inventory Management System
+
+A Python GUI based Inventory Management System using:
+
+- Python
+- Tkinter
+- MySQL
+- ReportLab (PDF invoice)
+
+## Features
+
+- Add / Update / Delete Products
+- Customer Management
+- Transactions
+- Automatic Invoice PDF generation
+
+## Installation
+
+1 Install dependencies
+
+pip install -r requirements.txt
+
+2 Run the project
+
+python secbp.py
+
+## Database
+
+Create MySQL database and tables using database.sql
