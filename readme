@@ -1,15 +1,15 @@
-📦 Inventory Management System
+# 📦 Inventory Management System
 
-"Python" (https://img.shields.io/badge/Python-3.x-blue?logo=python)
-"Tkinter" (https://img.shields.io/badge/GUI-Tkinter-green)
-"MySQL" (https://img.shields.io/badge/Database-MySQL-orange?logo=mysql)
-"Status" (https://img.shields.io/badge/Project-Completed-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green)
+![MySQL](https://img.shields.io/badge/Database-MySQL-orange?logo=mysql)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
 A Python GUI-based Inventory Management System to manage products, customers, and transactions efficiently, with automated invoice generation.
 
 ---
 
-🚀 Features
+## 🚀 Features
 
 - 📦 Add, update, and delete products
 - 👥 Manage customer details
@@ -19,7 +19,7 @@ A Python GUI-based Inventory Management System to manage products, customers, an
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - 🐍 Python
 - 🖼 Tkinter
@@ -28,8 +28,9 @@ A Python GUI-based Inventory Management System to manage products, customers, an
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
+```
 stock-management-system/
 │
 ├── secbp.py
@@ -37,33 +38,42 @@ stock-management-system/
 ├── requirements.txt
 ├── database.sql
 └── README.md
+```
 
 ---
 
-⚙️ Installation
+## ⚙️ Installation
 
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/stock-management-system.git
+```
+git clone https://github.com/malothumanjula/inventory-management-system.git
 cd stock-management-system
+```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 
+```
 pip install -r requirements.txt
+```
 
-3️⃣ Setup Database
+### 3️⃣ Setup Database
 
+```
 CREATE DATABASE stock_db;
 USE stock_db;
 SOURCE database.sql;
+```
 
-4️⃣ Run the Application
+### 4️⃣ Run the Application
 
+```
 python secbp.py
+```
 
 ---
 
-🖥️ Usage
+## 🖥️ Usage
 
 - Run the application
 - Add products and customers
@@ -72,7 +82,7 @@ python secbp.py
 
 ---
 
-📈 Future Improvements
+## 📈 Future Improvements
 
 - 🔐 Login system
 - 📊 Analytics dashboard
@@ -81,19 +91,19 @@ python secbp.py
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Maloth Manjula
+**Maloth Manjula**  
 B.Tech – Software Engineering
 
 ---
 
-⭐ Contribute
+## ⭐ Contribute
 
 Feel free to fork this repository and contribute!
 
 ---
 
-📜 License
+## 📜 License
 
 This project is for academic use.
